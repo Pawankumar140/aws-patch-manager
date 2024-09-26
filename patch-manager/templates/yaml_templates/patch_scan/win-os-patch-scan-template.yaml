@@ -378,7 +378,7 @@ Resources:
           - !Ref Environment
           - !Ref OperatingSystem
           - WindowTarget
-# getting id of maintainance windows from above resource
+# getting id of maintainance windows from above resource1
       WindowId: !Ref PatchScanMaintenanceWindow
       ResourceType: INSTANCE
       Targets:
